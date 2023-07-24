@@ -1,0 +1,9 @@
+version : '3'
+services:
+    centos7:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: centos7
+        container_name: centos7
+        tty: true
